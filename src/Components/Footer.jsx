@@ -4,7 +4,7 @@ const Footer = () => {
       <div className=" px-8">
           {/* Replace with your logo */}
           <img
-            src="/images/logo.webp"
+            src="/images/logo.png"
             alt="Logo"
             className="h-16.25 w-auto object-contain"
           />

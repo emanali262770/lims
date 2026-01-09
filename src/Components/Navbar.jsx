@@ -6,11 +6,11 @@ const MENU = [
     label: "Tests Setup",
     to: "/tests-setup",
     children: [
-      { label: "Specimen Category", to: "/tests-setup/specimen-category" },
-      { label: "Lab Department", to: "/tests-setup/lab-department" },
-      { label: "Sub Department", to: "/tests-setup/sub-department" },
-      { label: "Test Head", to: "/tests-setup/test-head" },
-      { label: "Specimens", to: "/tests-setup/specimens" },
+      { label: "Specimen Category", to: "/specimen-category" },
+      { label: "Lab Department", to: "/lab-department" },
+      { label: "Sub Department", to: "/sub-department" },
+      { label: "Test Head", to: "/test-head" },
+      { label: "Specimens", to: "/specimens" },
       { label: "Lab Tests", to: "/tests-setup/lab-tests" },
       { label: "Culture Group", to: "/tests-setup/culture-group" },
       { label: "Culture Medicine", to: "/tests-setup/culture-medicine" },
@@ -147,13 +147,13 @@ const MENU = [
 
   {
     label: "Admin",
-    to: "/admin",
+   
     children: [
-      { label: "Privileges", to: "/admin/privileges" },
-      { label: "Roles", to: "/admin/roles" },
+      { label: "Privileges", to: "/privileges" },
+      { label: "Roles", to: "/roles" },
       { label: "Users", to: "/users" },
-      { label: "Reference Types", to: "/admin/reference-types" },
-      { label: "User Rights Report", to: "/admin/user-rights-report" },
+      { label: "Reference Types", to: "/reference-types" },
+      { label: "User Rights Report", to: "/user-rights-report" },
     ],
   },
 ];
@@ -194,7 +194,7 @@ const Navbar = () => {
         <div className="mx-auto flex items-center justify-between px-6 py-3">
           <div className="flex items-center gap-3">
             <img
-              src="/images/logo.webp"
+              src="/images/logo.png"
               alt="Rabia Welfare Hospital"
               className="h-16 w-auto object-contain"
             />

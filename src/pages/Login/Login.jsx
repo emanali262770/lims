@@ -10,7 +10,7 @@ const Login = () => {
                 <div className="w-[min(1200px,92%)] mx-auto flex items-center">
                     {/* Replace with your logo */}
                     <img
-                        src="/images/logo.webp"
+                        src="/images/logo.png"
                         alt="Logo"
                         className="h-18 w-auto object-contain"
                     />
@@ -83,7 +83,7 @@ const Login = () => {
                 <div className="w-[min(1200px,92%)] mx-auto flex items-center justify-between">
                     {/* Replace with your footer logo */}
                     <img
-                        src="/images/logo.webp"
+                        src="/images/logo.png"
                         alt="NextStep"
                         className="h-18 w-auto object-contain"
                     />
